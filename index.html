@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrition</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="flex-header">
+        <h1>Matplaneraren</h1>
+    </header>
+
+    <main class="flex-main">
+        <div class="page">
+            <section class="search-container">
+                <section class="search-box">
+                    <input type="text" id="search-text">
+                    <input type="button" value="Lägg till" id="addButton">
+                </section>
+                <div id="ingredientOptions" class="ingredientOptions"></div>
+            </section>
+
+            <section id="ingredientsContainer" class="card-container"></section>
+
+            <section class="card-container">
+                <section id="totalNutritionCard" class="total-nutrition-card">
+                    <h3>Totala Näringsvärdet</h3>
+                    <p>Kolhydrater: <span id="totalCarbs">0</span> g</p>
+                    <p>Protein: <span id="totalProtein">0</span> g</p>
+                    <p>Fett: <span id="totalFat">0</span> g</p>
+                    <p>Kalorier: <span id="totalCalories">0</span> kcal</p>
+                </section>
+            </section>
+        </div>
+    </main>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
