@@ -18,17 +18,19 @@ body{
     background-color: #D2E0D3;
 }
 
-input[type="button"]{
+
+.buttons{
     background-color: #F0EEEA;
     border-radius: 0.3rem;
     padding: 0.3rem;
+    transition: background-color 0.2s ease;
 }
 
-input[type="button"]:hover{
+.buttons:hover{
     background-color: #d6cbbf9d;
 }
 
-input[type="text"]{
+.search-input{
     padding-left: 0.3rem;
     border-radius: 0.3rem;
     flex: 1;
@@ -92,7 +94,7 @@ input[type="text"]{
     width: 100%;
 }
 
-.card-container :hover{
+.card:hover{
     background-color: #f7dad1
 }
 
