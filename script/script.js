@@ -1,6 +1,6 @@
 let selectedIngredient = null; 
 let startPos = 0;
-let getAmount = 100;
+let getAmount = 2575;
 let urlIngredient = "https://dataportal.livsmedelsverket.se/livsmedel/api/v1/livsmedel?offset=" + startPos + "&limit=" + getAmount + "&sprak=1";
 
 const ingredientsContainer = document.getElementById("ingredientsContainer"); 
